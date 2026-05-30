@@ -8,7 +8,7 @@ const CITIES = ["#로마", "#피렌체", "#베네치아", "#밀라노", "#친퀘
 
 function getDDay() {
   const today = new Date();
-  const departure = new Date("2026-06-15");
+  const departure = new Date("2026-06-26");
   const diff = Math.ceil((departure.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
   if (diff > 0) return `D-${diff}`;
   if (diff === 0) return "D-Day";
@@ -39,7 +39,7 @@ export function HeroBanner() {
         <h1 className="text-2xl font-bold text-white leading-tight font-playfair">
           이탈리아 아트 투어 9일
         </h1>
-        <p className="text-white/80 text-sm mt-1">2026.06.15(월) → 06.23(화) · 7박 9일</p>
+        <p className="text-white/80 text-sm mt-1">2026.06.26(금) → 07.04(토) · 7박 9일</p>
         <div className="flex flex-wrap gap-1.5 mt-3">
           {CITIES.map((city) => (
             <span

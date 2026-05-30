@@ -178,7 +178,7 @@ const SECTIONS = [
     content: (
       <ul className="space-y-2 text-sm text-neutral-700">
         <li className="flex items-start gap-2">
-          <span className="shrink-0">•</span>6월 중순 초여름: 낮 25~30°C, 자외선 강함 — 선크림·선글라스 필수
+          <span className="shrink-0">•</span>6월 말~7월 초 초여름: 낮 25~32°C, 자외선 강함 — 선크림·선글라스 필수
         </li>
         <li className="flex items-start gap-2">
           <span className="shrink-0">•</span>성당 입장 시 어깨·무릎을 가리는 옷 필수
@@ -196,7 +196,7 @@ export default function InfoPage() {
     <div className="space-y-6 py-6">
       <div className="px-4">
         <h1 className="text-xl font-bold text-neutral-900 mb-1">여행 정보</h1>
-        <p className="text-sm text-neutral-500">이탈리아 아트 투어 9일 · 2026.06.15~06.23</p>
+        <p className="text-sm text-neutral-500">이탈리아 아트 투어 9일 · 2026.06.26~07.04</p>
       </div>
 
       <div className="px-4">

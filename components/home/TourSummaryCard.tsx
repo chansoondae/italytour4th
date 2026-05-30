@@ -2,7 +2,7 @@ import { TOUR_INFO } from "@/lib/data";
 import { Download } from "lucide-react";
 
 const ITEMS = [
-  { icon: "📅", label: "여행기간", value: "7박 9일 (6/15 월 ~ 6/23 화)" },
+  { icon: "📅", label: "여행기간", value: "7박 9일 (6/26 금 ~ 7/4 토)" },
   { icon: "🚌", label: "이동수단", value: "전용 버스" },
   { icon: "🏨", label: "숙박", value: "4성급 호텔 7박 + 기내 1박" },
   { icon: "🍽️", label: "식사", value: "호텔식, 현지식, 한식(삼겹살), 와인 시음" },
@@ -23,8 +23,8 @@ export function TourSummaryCard() {
             <span className="text-lg leading-none mt-0.5">✈️</span>
             <div className="flex-1">
               <p className="text-xs text-neutral-500 font-medium">항공편</p>
-              <p className="text-sm text-neutral-900 font-semibold mt-0.5">6/15(월) 12:35 → 19:15  TW0405</p>
-              <p className="text-sm text-neutral-900 font-semibold mt-0.5">6/22(월) 21:15 → 6/23(화) 16:10  TW0406</p>
+              <p className="text-sm text-neutral-900 font-semibold mt-0.5">6/26(금) 12:35 → 19:15  TW0405</p>
+              <p className="text-sm text-neutral-900 font-semibold mt-0.5">7/3(금) 21:15 → 7/4(토) 16:10  TW0406</p>
             </div>
             <a
               href="/이탈리아4차.pdf"
